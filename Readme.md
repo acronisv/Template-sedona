@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Роман Жуховцов](https://up.htmlacademy.ru/adaptive/13/user/324721).
-* Наставник: `Неизвестно`.
+* Наставник: `Андрей Островский`.
 
 ---
 
