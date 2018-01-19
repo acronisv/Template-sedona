@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<section class="intro">
+		<h1 class="visually-hidden">Отдых в Седоне</h1>
+		<p class="intro_text">Sedona</p>
+	</section>
+	<div class="wrapper">
+		<section class="review">
+			<h2 class="review__title">Оставьте свой отзыв</h2>
+			<p class="review__text">Помогите нашим отелям стать лучше! Оставьте свой отзыв о них, а также о посещенных вами достопримечательностях</p>
+			<form class="review-form" action="https://echo.htmlacademy.ru" method="post">
+				<fieldset class="review__introduce">
+					<p>Представьтесь:</p>
+					<label class="review-label review-label--capitals" for="first-name">Имя</label>
+					<input type="text" required id="first-name" name="first-name" value="Петр">
+					<label class="review-label review-label--capitals" for="surname">Имя</label>
+					<input type="text" required id="surname" name="surname" value="Иванов">
+					<label class="review-label  review-label--capitals" for="middle-name">Имя</label>
+					<input type="text" id="middle-name" name="middle-name" value="Александрович">
+				</fieldset>
+				<fieldset class="review__contact-info">
+					<p>Контактная информация:</p>
+					<label class="review-label review-label--capitals" for="phone">Контактный телефон</label>
+					<input type="text" required id="phone" name="phone" value="Введите телефон">
+					<label class="review-label review-label--capitals" for="email">Электронная почта</label>
+					<input type="text" required id="email" name="email" value="Введите e-mail">
+
+				</fieldset>
+				<fieldset class="review__impression">
+					<p>Ваше общее впечатление:</p>
+					<input type="radio" id="positive" name="positive">
+					<label class="review-label review-label--bold" for="positive">Скорее положительное</label>
+					<input type="radio" id="negative" name="negative">
+					<label class="review-labe review-label--bold" for="negative">Скорее отрицательное</label>
+					<input type="radio" id="difficult" name="difficult">
+					<label class="review-label review-label--bold" for="difficult">Затрудняюсь ответить</label>
+				</fieldset>
+				<fieldset class="review__sights">
+					<p>Посещенные достопримечательности</p>
+					<input type="checkbox" checked id="devil-bridge" name="devil-bridge">
+					<label class="review-label review-label--bold" for="devil-bridge">Мост Дьявола</label>
+
+					<input type="checkbox" checked id="slide-park" name="slide-park">
+					<label class="review-label review-label--bold" for="slide-park">Слайд-парк</label>
+
+					<input type="checkbox" id="mountain-bell" name="mountain-bell">
+					<label class="review-label review-label--bold" for="mountain-bell">Гора Колокол</label>
+
+					<input type="checkbox" checked id="red-rock" name="red-rock">
+					<label class="review-label review-label--bold" for="red-rock">Красные скалы</label>
+				</fieldset>
+				<fieldset class="review__emotions">
+					<p>Опишите свои эмоции:</p>
+					<textarea name="emotions">Опишите подробно все свои восторги</textarea>
+				</fieldset>
+				<input type="submit" value="Отправить отзыв">
+			</form>
+		</section>
+	</div>
+	<footer class="page-footer">
+		<p class="page-footer__hashtag">#Visit sedona</p>
+		<ul class="page-footer__links social">
+			<li class="social-link social-link__twitter"><a href="https://twitter.com/">Мы в твиттере</a></li>
+			<li class="social-link social-link__facebook"><a href="https://www.facebook.com/">Мы в фейсбуке</a></li>
+			<li class="social-link social-link--youtube"><a href="https://youtube.com/">Мы на youtube</a></li>
+		</ul>
+		<a class="page-footer__copyright" href="https://htmlacademy.ru/">Разработано</a>
+	</footer>
+</body>
+</html>
