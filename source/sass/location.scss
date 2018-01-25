@@ -1,0 +1,22 @@
+.location__title{
+	margin:33px 0;
+	font-family: PTSans-Bold;
+	font-size: 21px;
+	@include uppercase-centered;
+}
+.location__text{
+	font-family: PTSans-Regular;
+	font-size: 14px;
+	@include uppercase-centered;
+}
+.location__button-find{
+	background: $main-color;
+	display: block;
+	margin: 50px 20px;
+	padding: 21px 47px;
+	font-size: 21px;
+	color:#fff;
+	font-family: PTSans-Bold;
+	@include uppercase-centered;
+	text-decoration: none;
+}

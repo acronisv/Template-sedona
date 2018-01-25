@@ -1,0 +1,18 @@
+.page-footer__hashtag{
+	margin-top:41px;
+	margin-bottom:41px;
+	@include uppercase-centered;
+	font-family: PTSans-Regular;
+}
+.page-footer__links{
+	padding:0;
+
+}
+.page-footer__copyright{
+	display: block;
+	margin-top:41px;
+	margin-bottom:41px;
+	@include uppercase-centered;
+	text-decoration: none;
+	font-family: PTSans-Regular;
+}

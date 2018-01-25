@@ -1,0 +1,12 @@
+.intro{
+	background-image: url("../img/bg-back-mobile@1x.jpg");
+	background-repeat: no-repeat;
+
+}
+.intro_text{
+	font-size: 38px;
+	color:#fff;
+	padding:52px 0 67px 0;
+	@include uppercase-centered;
+	font-family:PTSans-Bold;
+}
