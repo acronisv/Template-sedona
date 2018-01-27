@@ -1,0 +1,12 @@
+.think-about__title{
+	font-size: 18px;
+	@include uppercase-centered;
+	font-family:PTSans-Bold;
+}
+.think-about__text{
+	font-size: 14px;
+	font-family:PTSans-Regular;
+}
+.think-about__wrapper{
+	padding: 33px 20px 40px;
+}

@@ -2,12 +2,13 @@
 	background-image: url('../img/bg-back-mobile@1x.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top:90px;
-	padding-bottom:90px;
+	padding:90px 20px;
 	margin-top:-27px;
 }
 .greeting__text{
 	display:block;
+	width: 100%;
+	height:auto;
 	margin:0 auto;
 }
 .visually-hidden{
