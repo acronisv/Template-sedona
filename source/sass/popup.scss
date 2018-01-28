@@ -1,0 +1,35 @@
+.popup__title{
+  font-size: 18px;
+  font-family: PTSans-Bold;
+  @include uppercase-centered;
+}
+.popup__text{
+  font-size: 14px;
+  font-family: PTSans-Regular;
+  @include uppercase-centered;
+  margin:25px 0;
+}
+.popup__btn{
+  @include button;
+  border:none;
+
+}
+.popup__btn--ok{
+  width: 180px;
+  margin:0 auto;
+}
+.popup__btn--close{
+  width: 280px;
+  margin:0 auto;
+}
+.popup__failure{
+  margin: 0 auto;
+  padding:40px 20px 35px;
+}
+.popup__button-wrapper{
+  background: #f2f2f2;
+  padding:20px;
+}
+.popup__failure, .popup__success{
+  display: none;
+}

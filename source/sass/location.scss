@@ -1,22 +1,21 @@
+.location{
+  margin-bottom: 75px;
+}
 .location__title{
-	margin:33px 0;
-	font-family: PTSans-Bold;
-	font-size: 21px;
-	@include uppercase-centered;
+  margin:0;
+  font-family: PTSans-Bold;
+  font-size: 21px;
+  @include uppercase-centered;
 }
 .location__text{
-	font-family: PTSans-Regular;
-	font-size: 14px;
-	@include uppercase-centered;
+  margin:27px 0 37px 0;
+  font-family: PTSans-Regular;
+  font-size: 14px;
+  @include uppercase-centered;
+}
+.location__wrapper{
+  padding:30px 20px 35px;
 }
 .location__button-find{
-	background: $main-color;
-	display: block;
-	margin: 50px 20px;
-	padding: 21px 47px;
-	font-size: 21px;
-	color:#fff;
-	font-family: PTSans-Bold;
-	@include uppercase-centered;
-	text-decoration: none;
+  @include button;
 }

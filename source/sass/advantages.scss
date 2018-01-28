@@ -1,67 +1,75 @@
 .advantages__title{
-	margin-top:46px;
-	margin-bottom:21px;
-	color:#000;
-	font-size: 18px;
-	@include uppercase-centered;
-	font-family:PTSans-Bold;
+  margin:0;
+  color:#000;
+  font-size: 18px;
+  @include uppercase-centered;
+  font-family:PTSans-Bold;
 }
 .advantages__main-text{
-	font-size: 14px;
-	font-family:PTSans-Regular;
-	margin-top:21px;
-	margin-bottom:50px;
-	@include uppercase-centered;
+  font-size: 14px;
+  font-family:PTSans-Regular;
+  margin-top:21px;
+  @include uppercase-centered;
 }
 .advantages__image{
-	display: block;
-	width: 100%;
-	height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .advantages__list{
-	padding:0;
+  padding:0;
+  margin:0;
 }
 .advantages__list-item{
-	list-style-type: none;
+  list-style-type: none;
+}
+.advantages__wrapper{
+  padding:32px 20px;
+  border-bottom:1px solid #d6d6d6;
 }
 .advantages__list-item--blue-bg .advantages__wrapper{
-	padding:44px 0;
+  padding:44px 20px;
 }
 .advantages__list-item--gray-bg .advantages__wrapper{
-	border-bottom: 1px solid #d6d6d6;
-	margin:0 20px;
-	padding:33px 0;
-	&:last-child{
-		border:none;
-	}
+  border-bottom: 1px solid #d6d6d6;
+  margin:0 20px;
+  padding:33px 0;
+}
+.advantages__list-item--gray-bg:last-of-type  .advantages__wrapper{
+  border:none;
 }
 .advantages__item-title{
-	font-family:PTSans-Bold;
-	margin:0;
-	//padding: 33px 0;
+  font-family:PTSans-Bold;
+  margin:0;
+  //padding: 33px 0;
 }
 .advantages__item-title, .advantages__number{
-	font-size: 18px;
-	@include uppercase-centered;
+  font-size: 18px;
+  @include uppercase-centered;
 }
 .advantages__number{
-	font-family:PTSans-Regular;
-	display: block;
-	width: 100%;
+  font-family:PTSans-Regular;
+  display: block;
+  width: 100%;
+  padding:16px 0 20px 0;
 }
 
 .advantages__text{
-	font-family:PTSans-Regular;
-	font-size: 14px;
-	@include uppercase-centered;
+  font-family:PTSans-Regular;
+  font-size: 14px;
+  @include uppercase-centered;
+  margin:0;
+}
+.advantages__text-wrapper{
+  padding:44px 20px;
 }
 
 .advantages__list-item--blue-bg{
-	background: $main-color;
-	.advantages__item-title, .advantages__number, .advantages__text{
-		color:#fff;
-	}
+  background: $main-color;
+  .advantages__item-title, .advantages__number, .advantages__text{
+    color:#fff;
+  }
 }
 .advantages__list-item--gray-bg{
-	background: #eeeeee;
+  background: #eeeeee;
 }
