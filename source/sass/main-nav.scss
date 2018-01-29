@@ -11,11 +11,11 @@
 
   .main-nav__link {
     @include uppercase-centered;
-    font-family: "PTSans-Bold", sans-serif;
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #ffffff;
+    font-weight: bold;
     text-decoration: none;
   }
 }

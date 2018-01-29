@@ -9,7 +9,6 @@
 .advantages__main-text {
   @include uppercase-centered;
   font-size: 14px;
-  font-family: "PTSans-Regular", sans-serif;
   margin-top: 21px;
 }
 
@@ -59,7 +58,6 @@
 }
 
 .advantages__number {
-  font-family: "PTSans-Regular", sans-serif;
   display: block;
   width: 100%;
   padding: 16px 0 20px 0;
@@ -67,7 +65,6 @@
 
 .advantages__text {
   @include uppercase-centered;
-  font-family: "PTSans-Regular", sans-serif;
   font-size: 14px;
   margin: 0;
 }

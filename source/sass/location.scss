@@ -5,14 +5,12 @@
 .location__title {
   @include uppercase-centered;
   margin: 0;
-  font-family: "PTSans-Bold", sans-serif;
   font-size: 21px;
 }
 
 .location__text {
   @include uppercase-centered;
   margin: 27px 0 37px 0;
-  font-family: "PTSans-Regular", sans-serif;
   font-size: 14px;
 }
 

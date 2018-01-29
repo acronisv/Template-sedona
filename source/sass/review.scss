@@ -5,13 +5,11 @@
 .review__title {
   @include uppercase-centered;
   font-size: 18px;
-  font-family: "PTSans-Bold", sans-serif;
 }
 
 .review__text {
   @include uppercase-centered;
   font-size: 14px;
-  font-family: "PTSans-Regular", sans-serif;
 }
 
 .review__wrapper {
@@ -32,24 +30,23 @@
 .review__section-title {
   @include uppercase-centered;
   font-size: 18px;
-  font-family: "PTSans-Bold", sans-serif;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
 .review__label--capitals {
   font-size: 14px;
-  font-family: "PTSans-Regular", sans-serif;
   text-transform: uppercase;
 }
 
 .review__label--bold {
   font-size: 14px;
-  font-family: "PTSans-Bold", sans-serif;
+  font-weight: bold;
 }
 
 .review__input {
   background: #f2f2f2;
-  font-family: "PTSans-Bold", sans-serif;
+  font-weight: bold;
   padding: 20px;
   border: none;
   box-sizing: border-box;
@@ -62,7 +59,9 @@
   padding: 20px;
   border: none;
   box-sizing: border-box;
-  font-family: "PTSans-Bold", sans-serif;
+  font-size: 18px;
+  font-family: "PTSans-Bold", "Arial", sans-serif;
+  font-weight: bold;
 }
 
 .review__btn-submit {

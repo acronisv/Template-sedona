@@ -1,13 +1,11 @@
 .about__title {
   @include uppercase-centered;
   font-size: 18px;
-  font-family: "PTSans-Bold", sans-serif;
 }
 
 .about__text {
   @include uppercase-centered;
   font-size: 14px;
-  font-family: "PTSans-Regular", sans-serif;
 }
 
 .about__pics {
