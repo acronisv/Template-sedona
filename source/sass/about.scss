@@ -1,18 +1,18 @@
-.about__title{
+.about__title {
   font-size: 18px;
   @include uppercase-centered;
-  font-family:PTSans-Bold;
+  font-family: 'PTSans-Bold';
 }
-.about__text{
+.about__text {
   font-size: 14px;
   @include uppercase-centered;
-  font-family:PTSans-Regular;
+  font-family: 'PTSans-Regular';
 }
 .about__pics {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   text-decoration: none;
 }
-.about__wrapper{
-  padding:40px 20px 30px;
+.about__wrapper {
+  padding: 40px 20px 30px;
 }
