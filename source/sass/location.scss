@@ -1,21 +1,25 @@
-.location{
+.location {
   margin-bottom: 75px;
 }
-.location__title{
-  margin:0;
-  font-family: PTSans-Bold;
+
+.location__title {
+  margin: 0;
+  font-family: "PTSans-Bold";
   font-size: 21px;
   @include uppercase-centered;
 }
-.location__text{
-  margin:27px 0 37px 0;
-  font-family: PTSans-Regular;
+
+.location__text {
+  margin: 27px 0 37px 0;
+  font-family: "PTSans-Regular";
   font-size: 14px;
   @include uppercase-centered;
 }
-.location__wrapper{
-  padding:30px 20px 35px;
+
+.location__wrapper {
+  padding: 30px 20px 35px;
 }
-.location__button-find{
+
+.location__button-find {
   @include button;
 }

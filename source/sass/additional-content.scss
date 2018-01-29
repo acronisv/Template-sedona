@@ -1,21 +1,25 @@
-.additional-content{
+.additional-content {
   background: #fff;
-  padding:25px 20px 35px;
+  padding: 25px 20px 35px;
 }
-.additional-content__list{
-  padding:0;
+
+.additional-content__list {
+  padding: 0;
 }
-.additional-content__list-item{
+
+.additional-content__list-item {
   list-style-type: none;
 }
-.additional-content__title{
-  font-family:PTSans-Bold;
-  margin:0;
-  font-size:18px;
+
+.additional-content__title {
+  font-family: "PTSans-Bold";
+  margin: 0;
+  font-size: 18px;
   text-transform: uppercase;
 }
-.additional-content__text{
-  font-family:PTSans-Regular;
-  font-size:14px;
+
+.additional-content__text {
+  font-family: "PTSans-Regular";
+  font-size: 14px;
   text-transform: uppercase;
 }

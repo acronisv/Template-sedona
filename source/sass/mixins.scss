@@ -1,0 +1,15 @@
+@mixin uppercase-centered {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@mixin button {
+  background: $main-color;
+  display: block;
+  padding: 20px 0;
+  font-size: 21px;
+  color:#fff;
+  font-family: "PTSans-Bold";
+  @include uppercase-centered;
+  text-decoration: none;
+}

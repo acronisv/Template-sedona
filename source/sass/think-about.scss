@@ -1,18 +1,21 @@
-.think-about{
+.think-about {
   margin-bottom: 80px;
 }
-.think-about__title{
-  margin:0 0 35px 0;
+
+.think-about__title {
+  margin: 0 0 35px 0;
   font-size: 18px;
   @include uppercase-centered;
-  font-family:PTSans-Bold;
+  font-family: "PTSans-Bold";
 }
-.think-about__text{
-  margin:0;
+
+.think-about__text {
+  margin: 0;
   font-size: 14px;
   @include uppercase-centered;
-  font-family:PTSans-Regular;
+  font-family: "PTSans-Regular";
 }
-.think-about__wrapper{
+
+.think-about__wrapper {
   padding: 33px 20px 40px;
 }

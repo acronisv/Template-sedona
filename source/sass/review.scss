@@ -1,69 +1,75 @@
-.review{
+.review {
   margin-bottom: 75px;
 }
-.review__title{
+
+.review__title {
   font-size: 18px;
   @include uppercase-centered;
-  font-family:PTSans-Bold;
+  font-family: "PTSans-Bold";
 }
-.review__text{
+.review__text {
   font-size: 14px;
-  font-family:PTSans-Regular;
+  font-family: "PTSans-Regular";
   @include uppercase-centered;
 }
-.review__wrapper{
-  padding:40px 20px 20px;
+
+.review__wrapper {
+  padding: 40px 20px 20px;
   border-bottom:1px solid #e5e5e5;
 }
-.review__section{
-  border:0;
+
+.review__section {
+  border: 0;
   border-bottom:1px solid #e5e5e5;
-  padding:20px;
-  &:last-of-type{
-    border:none;
+  padding: 20px;
+  &:last-of-type {
+    border: none;
   }
 }
-// .review__form-wrapper{
-//   padding:20px;
-// }
-.review__section-title{
+
+.review__section-title {
   font-size: 18px;
   @include uppercase-centered;
-  font-family:PTSans-Bold;
+  font-family: "PTSans-Bold";
   margin-bottom: 20px;
 }
-.review__label--capitals{
+
+.review__label--capitals {
   font-size: 14px;
-  font-family:PTSans-Regular;
+  font-family: "PTSans-Regular";
   text-transform: uppercase;
 }
-.review__label--bold{
+
+.review__label--bold {
   font-size: 14px;
-  font-family:PTSans-Bold;
+  font-family: "PTSans-Bold";
 }
-.review__input{
-  background:#f2f2f2;
-  font-family:PTSans-Bold;
-  padding:20px;
-  border:none;
-  box-sizing:border-box;
+
+.review__input {
+  background: #f2f2f2;
+  font-family: "PTSans-Bold";
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
 }
-.review__section--emotions textarea{
-  background:#f2f2f2;
-  height:160px;
-  width:100%;
-  padding:20px;
-  border:none;
-  box-sizing:border-box;
-  font-family:PTSans-Bold;
+
+.review__section--emotions textarea {
+  background: #f2f2f2;
+  height: 160px;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
+  font-family: "PTSans-Bold";
 }
-.review__btn-submit{
+.review__btn-submit {
   @include button;
-  border:none;
+  border: none;
   display: block;
-  margin:0 auto;
+  margin: 0 auto;
   width: 280px;
 }
-.review__section--emotions{
+
+.review__section--emotions {
   margin-bottom: 30px;
 }
