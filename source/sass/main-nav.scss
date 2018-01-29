@@ -9,7 +9,7 @@
   border-top: 1px solid #9ac2db;
   border-bottom: 1px solid #678fa8;
 
-    .main-nav__link {
+  .main-nav__link {
     @include uppercase-centered;
     font-family: "PTSans-Bold", sans-serif;
     display: block;
