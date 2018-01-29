@@ -1,16 +1,16 @@
 .advantages__title {
-  margin: 0;
-  color: #000;
-  font-size: 18px;
   @include uppercase-centered;
-  font-family: "PTSans-Bold";
+  margin: 0;
+  color: #000000;
+  font-size: 18px;
+  font-family: "PTSans-Bold", sans-serif;
 }
 
 .advantages__main-text {
-  font-size: 14px;
-  font-family: "PTSans-Regular";
-  margin-top: 21px;
   @include uppercase-centered;
+  font-size: 14px;
+  font-family: "PTSans-Regular", sans-serif;
+  margin-top: 21px;
 }
 
 .advantages__image {
@@ -48,26 +48,27 @@
 }
 
 .advantages__item-title {
-  font-family: "PTSans-Bold";
+  font-family: "PTSans-Bold", sans-serif;
   margin: 0;
 }
 
-.advantages__item-title, .advantages__number {
-  font-size: 18px;
+.advantages__item-title,
+.advantages__number {
   @include uppercase-centered;
+  font-size: 18px;
 }
 
 .advantages__number {
-  font-family: "PTSans-Regular";
+  font-family: "PTSans-Regular", sans-serif;
   display: block;
   width: 100%;
   padding: 16px 0 20px 0;
 }
 
 .advantages__text {
-  font-family: "PTSans-Regular";
-  font-size: 14px;
   @include uppercase-centered;
+  font-family: "PTSans-Regular", sans-serif;
+  font-size: 14px;
   margin: 0;
 }
 
@@ -77,8 +78,10 @@
 
 .advantages__list-item--blue-bg {
   background: $main-color;
-  .advantages__item-title, .advantages__number, .advantages__text {
-    color: #fff;
+  .advantages__item-title,
+  .advantages__number,
+  .advantages__text {
+    color: #ffffff;
   }
 }
 

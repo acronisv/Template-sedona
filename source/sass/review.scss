@@ -3,14 +3,15 @@
 }
 
 .review__title {
+  @include uppercase-centered;
   font-size: 18px;
-  @include uppercase-centered;
-  font-family: "PTSans-Bold";
+  font-family: "PTSans-Bold", sans-serif;
 }
+
 .review__text {
-  font-size: 14px;
-  font-family: "PTSans-Regular";
   @include uppercase-centered;
+  font-size: 14px;
+  font-family: "PTSans-Regular", sans-serif;
 }
 
 .review__wrapper {
@@ -22,32 +23,33 @@
   border: 0;
   border-bottom:1px solid #e5e5e5;
   padding: 20px;
+
   &:last-of-type {
     border: none;
   }
 }
 
 .review__section-title {
-  font-size: 18px;
   @include uppercase-centered;
-  font-family: "PTSans-Bold";
+  font-size: 18px;
+  font-family: "PTSans-Bold", sans-serif;
   margin-bottom: 20px;
 }
 
 .review__label--capitals {
   font-size: 14px;
-  font-family: "PTSans-Regular";
+  font-family: "PTSans-Regular", sans-serif;
   text-transform: uppercase;
 }
 
 .review__label--bold {
   font-size: 14px;
-  font-family: "PTSans-Bold";
+  font-family: "PTSans-Bold", sans-serif;
 }
 
 .review__input {
   background: #f2f2f2;
-  font-family: "PTSans-Bold";
+  font-family: "PTSans-Bold", sans-serif;
   padding: 20px;
   border: none;
   box-sizing: border-box;
@@ -60,8 +62,9 @@
   padding: 20px;
   border: none;
   box-sizing: border-box;
-  font-family: "PTSans-Bold";
+  font-family: "PTSans-Bold", sans-serif;
 }
+
 .review__btn-submit {
   @include button;
   border: none;

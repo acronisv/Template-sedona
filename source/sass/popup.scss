@@ -1,13 +1,13 @@
 .popup__title {
-  font-size: 18px;
-  font-family: "PTSans-Bold";
   @include uppercase-centered;
+  font-size: 18px;
+  font-family: "PTSans-Bold", sans-serif;
 }
 
 .popup__text {
-  font-size: 14px;
-  font-family: "PTSans-Regular";
   @include uppercase-centered;
+  font-size: 14px;
+  font-family: "PTSans-Regular", sans-serif;
   margin: 25px 0;
 }
 
@@ -36,6 +36,7 @@
   padding: 20px;
 }
 
-.popup__failure, .popup__success {
+.popup__failure,
+.popup__success {
   display: none;
 }

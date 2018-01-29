@@ -1,20 +1,20 @@
 .page-footer__hashtag {
+  @include uppercase-centered;
   font-size: 21px;
   margin-top: 0;
-  margin-bottom:35px;
-  @include uppercase-centered;
-  font-family: "PTSans-Bold";
+  margin-bottom: 35px;
+  font-family: "PTSans-Bold", sans-serif;
 }
 
-.page-footer__links{
+.page-footer__links {
   padding: 0;
   margin: 0 0 40px 0;
 }
 
-.page-footer__copyright{
+.page-footer__copyright {
+  @include uppercase-centered;
   display: block;
   margin-bottom: 41px;
-  @include uppercase-centered;
   text-decoration: none;
-  font-family: "PTSans-Regular";
+  font-family: "PTSans-Regular", sans-serif;
 }

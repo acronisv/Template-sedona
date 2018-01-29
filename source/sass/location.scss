@@ -3,17 +3,17 @@
 }
 
 .location__title {
-  margin: 0;
-  font-family: "PTSans-Bold";
-  font-size: 21px;
   @include uppercase-centered;
+  margin: 0;
+  font-family: "PTSans-Bold", sans-serif;
+  font-size: 21px;
 }
 
 .location__text {
-  margin: 27px 0 37px 0;
-  font-family: "PTSans-Regular";
-  font-size: 14px;
   @include uppercase-centered;
+  margin: 27px 0 37px 0;
+  font-family: "PTSans-Regular", sans-serif;
+  font-size: 14px;
 }
 
 .location__wrapper {

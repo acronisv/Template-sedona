@@ -4,12 +4,12 @@
 }
 
 @mixin button {
+  @include uppercase-centered;
   background: $main-color;
   display: block;
   padding: 20px 0;
   font-size: 21px;
-  color:#fff;
-  font-family: "PTSans-Bold";
-  @include uppercase-centered;
+  color: #ffffff;
+  font-family: "PTSans-Bold", sans-serif;
   text-decoration: none;
 }
