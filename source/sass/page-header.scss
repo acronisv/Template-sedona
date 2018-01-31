@@ -1,6 +1,30 @@
 body {
+  @font-face {
+  font-family: "PTSans";
+  font-weight: normal;
+  font-style: normal;
+  src: local("PTSans"),
+  url("../fonts/PTSans-Regular.woff2") format("woff2"),
+    url("../fonts/PTSans-Regular.woff") format("woff"),
+    url("../fonts/PTSans-Regular.ttf") format("truetype"),
+    url("../fonts/PTSans-Regular.eot") format("eot");
+unicode-range: U+400—4FF;
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-weight: 700;
+  font-style: normal;
+  src: local("PTSans"),
+  url("../fonts/PTSans-Bold.woff2") format("woff2"),
+    url("../fonts/PTSans-Bold.woff") format("woff"),
+    url("../fonts/PTSans-Bold.ttf") format("truetype"),
+    url("../fonts/PTSans-Regular.eot") format("eot");
+  unicode-range: U+400—4FF;
+}
+
   margin: 0;
-  font-family: "PTSans-Regular", "Arial", sans-serif;
+  font-family: "PTSans", "Arial", sans-serif;
 }
 
 .page-header__logo {
