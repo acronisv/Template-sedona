@@ -1,0 +1,27 @@
+.media-posts__wrapper {
+  padding: 22px 20px;
+}
+
+.media-posts__item {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.media-posts__title {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.media-posts__text {
+  font-size: 14px;
+}
+
+.media-posts__count {
+  font-weight: bold;
+}
+
+.media-posts__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

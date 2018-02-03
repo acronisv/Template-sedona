@@ -1,0 +1,18 @@
+.greeting {
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 20px;
+}
+
+.greeting__text {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  @include v-hidden;
+}

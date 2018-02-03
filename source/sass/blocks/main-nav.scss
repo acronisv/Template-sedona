@@ -1,0 +1,21 @@
+.main-nav__list {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav__list-item {
+  background-color: $main-color;
+  list-style-type: none;
+  border-top: 1px solid #9ac2db;
+  border-bottom: 1px solid #678fa8;
+
+  .main-nav__link {
+    @include uppercase-centered;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,23 @@
+@mixin uppercase-centered {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@mixin button {
+  @include uppercase-centered;
+  background: $main-color;
+  display: block;
+  padding: 20px 0;
+  font-size: 21px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@mixin v-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

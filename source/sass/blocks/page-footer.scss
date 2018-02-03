@@ -1,0 +1,19 @@
+.page-footer__hashtag {
+  @include uppercase-centered;
+  font-size: 21px;
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.page-footer__links {
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.page-footer__copyright {
+  @include uppercase-centered;
+  display: block;
+  margin-bottom: 41px;
+  text-decoration: none;
+}

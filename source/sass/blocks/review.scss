@@ -1,0 +1,76 @@
+.review {
+  margin-bottom: 75px;
+}
+
+.review__title {
+  @include uppercase-centered;
+  font-size: 18px;
+}
+
+.review__text {
+  @include uppercase-centered;
+  font-size: 14px;
+}
+
+.review__wrapper {
+  padding: 40px 20px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.review__section {
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px;
+
+  &:last-of-type {
+    border: none;
+  }
+}
+
+.review__section-title {
+  @include uppercase-centered;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.review__label--capitals {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.review__label--bold {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.review__input {
+  background: #f2f2f2;
+  font-weight: bold;
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.review__section--emotions textarea {
+  background: #f2f2f2;
+  height: 160px;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.review__btn-submit {
+  @include button;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  width: 280px;
+}
+
+.review__section--emotions {
+  margin-bottom: 30px;
+}

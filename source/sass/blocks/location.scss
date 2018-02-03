@@ -1,0 +1,23 @@
+.location {
+  margin-bottom: 75px;
+}
+
+.location__title {
+  @include uppercase-centered;
+  margin: 0;
+  font-size: 21px;
+}
+
+.location__text {
+  @include uppercase-centered;
+  margin: 27px 0 37px 0;
+  font-size: 14px;
+}
+
+.location__wrapper {
+  padding: 30px 20px 35px;
+}
+
+.location__button-find {
+  @include button;
+}
