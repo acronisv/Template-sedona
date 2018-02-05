@@ -9,7 +9,15 @@
 
 .intro__img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .intro {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 }

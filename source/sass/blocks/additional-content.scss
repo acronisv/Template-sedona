@@ -21,3 +21,17 @@
   font-size: 14px;
   text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+  .additional-content__list {
+    display: flex;
+  }
+
+  .additional-content__title {
+    text-align: center;
+  }
+
+  .additional-content__text {
+    text-align: center;
+  }
+}

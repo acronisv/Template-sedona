@@ -14,6 +14,26 @@
   font-size: 14px;
 }
 
+.think-about__video img {
+  display: block;
+  width: 100%;
+}
+
 .think-about__wrapper {
   padding: 33px 20px 40px;
+}
+
+@media (min-width: 768px) {
+  .think-about {
+    width: 648px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .think-about {
+    width: 800px;
+  }
 }

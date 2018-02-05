@@ -22,6 +22,33 @@
 
 .media-posts__img {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .media-posts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .media-posts__item {
+    flex-basis: 50%;
+
+    &:first-child {
+      flex-basis: 100%;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .media-posts__item {
+    flex-basis: 33%;
+    flex-grow: 1;
+
+    &:first-child {
+      flex-basis: 100%;
+    }
+  }
 }

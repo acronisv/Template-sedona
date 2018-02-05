@@ -74,3 +74,64 @@
 .review__section--emotions {
   margin-bottom: 30px;
 }
+
+@media (min-width: 768px) {
+  .review {
+    width: 648px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .review__form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .review__section {
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0 0 45px;
+    box-sizing: border-box;
+  }
+
+  .review__section--introduce {
+    flex-basis: 50%;
+    order: 2;
+  }
+
+  .review__section--impression {
+    flex-basis: 50%;
+    order: 1;
+  }
+
+  .review__section--contact-info {
+    order: 3;
+  }
+
+  .review__section--sights {
+    order: 4;
+  }
+
+  .review__section--emotions {
+    order: 5;
+  }
+
+  .review__btn-submit {
+    order: 6;
+    margin-left: 0;
+    margin-right: auto;
+    width: 324px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .review {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .review__btn-submit {
+    width: 480px;
+  }
+}

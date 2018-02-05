@@ -21,3 +21,11 @@ body {
   font-family: "PTSans", "Arial", sans-serif;
   font-weight: normal;
 }
+
+@media (min-width: 1200px) {
+  .page-main,
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}

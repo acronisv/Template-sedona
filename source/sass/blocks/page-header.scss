@@ -1,6 +1,7 @@
 .page-header__logo {
   display: block;
   position: relative;
+  min-width: 101px;
 }
 
 .page-header__logo img {
@@ -9,4 +10,11 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@media (min-width: 1200px) {
+  .page-header {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
