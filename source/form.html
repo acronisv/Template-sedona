@@ -33,7 +33,7 @@
   </header>
   <section class="intro">
     <h1 class="visually-hidden">Отдых в Седоне</h1>
-    <img class="intro__img" src="img/text-sedona.svg">
+    <img class="intro__img" src="img/text-sedona.svg" alt="Седона">
   </section>
   <div class="wrapper">
     <section class="review">
@@ -43,19 +43,25 @@
       </div>
       <form class="review__form" action="https://echo.htmlacademy.ru" method="post">
         <fieldset class="review__section review__section--introduce">
+          <legend class="review__section-title">Представьтесь:</legend>
           <div class="review__form-wrapper">
-            <legend class="review__section-title">Представьтесь:</legend>
-            <label class="review__label review__label--capitals" for="first-name">Имя</label>
-            <input class="review__input review__input--introduce" type="text" required id="first-name" name="first-name" placeholder="Петр">
-            <label class="review__label review__label--capitals" for="surname">Фамилия</label>
-            <input class="review__input review__input--introduce" type="text" required id="surname" name="surname" placeholder="Иванов">
-            <label class="review__label  review__label--capitals" for="middle-name">Отчество</label>
-            <input class="review__input review__input--introduce" type="text" id="middle-name" name="middle-name" placeholder="Александрович">
+            <div class="review__line-wrapper">
+              <label class="review__label review__label--capitals" for="first-name">Имя</label>
+              <input class="review__input review__input--introduce" type="text" required id="first-name" name="first-name" placeholder="Петр">
+            </div>
+            <div class="review__line-wrapper">
+              <label class="review__label review__label--capitals" for="surname">Фамилия</label>
+              <input class="review__input review__input--introduce" type="text" required id="surname" name="surname" placeholder="Иванов">
+            </div>
+            <div class="review__line-wrapper">
+              <label class="review__label  review__label--capitals" for="middle-name">Отчество</label>
+              <input class="review__input review__input--introduce" type="text" id="middle-name" name="middle-name" placeholder="Александрович">
+            </div>
           </div>
         </fieldset>
         <fieldset class="review__section review__section--contact-info">
+          <legend class="review__section-title">Контактная информация:</legend>
           <div class="review__form-wrapper">
-            <legend class="review__section-title">Контактная информация:</legend>
             <label class="review__label review__label--capitals" for="phone">Контактный телефон</label>
             <input class="review__input review__input--contacts" type="tel" required id="phone" name="phone" placeholder="Введите телефон">
             <label class="review__label review__label--capitals" for="email">Электронная почта</label>
@@ -63,30 +69,41 @@
           </div>
         </fieldset>
         <fieldset class="review__section review__section--impression">
+          <legend class="review__section-title">Ваше общее впечатление:</legend>
           <div class="review__form-wrapper">
-            <legend class="review__section-title">Ваше общее впечатление:</legend>
-            <input class="review__input review__input--impression" type="radio" id="positive" name="positive">
-            <label class="review__label review__label--bold" for="positive">Скорее положительное</label>
-            <input class="review__input review__input--impression" type="radio" id="negative" name="negative">
-            <label class="review__label review__label--bold" for="negative">Скорее отрицательное</label>
-            <input class="review__input review__input--impression" type="radio" id="difficult" name="difficult">
-            <label class="review__label review__label--bold" for="difficult">Затрудняюсь ответить</label>
+            <div class="review__line-wrapper">
+              <input class="review__input review__input--impression" type="radio" id="positive" name="positive">
+              <label class="review__label review__label--bold" for="positive">Скорее положительное</label>
+            </div>
+            <div class="review__line-wrapper">
+              <input class="review__input review__input--impression" type="radio" id="negative" name="negative">
+              <label class="review__label review__label--bold" for="negative">Скорее отрицательное</label>
+            </div>
+            <div class="review__line-wrapper">
+              <input class="review__input review__input--impression" type="radio" id="difficult" name="difficult">
+             <label class="review__label review__label--bold" for="difficult">Затрудняюсь ответить</label>
+            </div>
           </div>
         </fieldset>
         <fieldset class="review__section review__section--sights">
+          <legend class="review__section-title">Посещенные достопримечательности</legend>
           <div class="review__form-wrapper">
-            <legend class="review__section-title">Посещенные достопримечательности</legend>
-            <input class="review__input review__input--sights" type="checkbox" checked id="devil-bridge" name="devil-bridge">
-            <label class="review__label review__label--bold" for="devil-bridge">Мост Дьявола</label>
-
-            <input class="review__input review__input--sights" type="checkbox" checked id="slide-park" name="slide-park">
-            <label class="review__label review__label--bold" for="slide-park">Слайд-парк</label>
-
-            <input class="review__input review__input--sights" type="checkbox" id="mountain-bell" name="mountain-bell">
-            <label class="review__label review__label--bold" for="mountain-bell">Гора Колокол</label>
-
-            <input class="review__input review__input--sights" type="checkbox" checked id="red-rock" name="red-rock">
-            <label class="review__label review__label--bold" for="red-rock">Красные скалы</label>
+            <div class="review__line-wrapper">
+              <input class="review__input review__input--sights" type="checkbox" checked id="devil-bridge" name="devil-bridge">
+              <label class="review__label review__label--bold" for="devil-bridge">Мост Дьявола</label>
+            </div>
+            <div class="review__line-wrapper">
+              <input class="review__input review__input--sights" type="checkbox" checked id="slide-park" name="slide-park">
+              <label class="review__label review__label--bold" for="slide-park">Слайд-парк</label>
+            </div>
+            <div class="review__line-wrapper">
+              <input class="review__input review__input--sights" type="checkbox" id="mountain-bell" name="mountain-bell">
+              <label class="review__label review__label--bold" for="mountain-bell">Гора Колокол</label>
+            </div>
+            <div class="review__line-wrapper">
+              <input class="review__input review__input--sights" type="checkbox" checked id="red-rock" name="red-rock">
+              <label class="review__label review__label--bold" for="red-rock">Красные скалы</label>
+            </div>
           </div>
         </fieldset>
         <fieldset class="review__section review__section--emotions">

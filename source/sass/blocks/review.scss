@@ -32,6 +32,7 @@
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  flex-basis: 100%;
 }
 
 .review__label--capitals {
@@ -73,6 +74,10 @@
 
 .review__section--emotions {
   margin-bottom: 30px;
+}
+
+.review__line-wrapper{
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -121,6 +126,16 @@
     margin-left: 0;
     margin-right: auto;
     width: 324px;
+  }
+
+  //.review__section--introduce
+  .review__form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .review__wrapper {
+    border: none;
   }
 }
 

@@ -2,6 +2,10 @@
   margin-bottom: 75px;
 }
 
+.location iframe{
+  width:100%;
+}
+
 .location__title {
   @include uppercase-centered;
   margin: 0;
