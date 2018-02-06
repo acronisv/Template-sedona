@@ -17,3 +17,21 @@
   margin-bottom: 41px;
   text-decoration: none;
 }
+
+@media (min-width: 768px) {
+  .page-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .page-footer__links {
+    display: flex;
+    list-style-type: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-footer {
+    @include container-desktop;
+  }
+}

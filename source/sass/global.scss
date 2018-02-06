@@ -21,3 +21,10 @@ body {
   font-family: "PTSans", "Arial", sans-serif;
   font-weight: normal;
 }
+
+@media (min-width: 1200px) {
+  .page-main,
+  .wrapper {
+    @include container-desktop;
+  }
+}

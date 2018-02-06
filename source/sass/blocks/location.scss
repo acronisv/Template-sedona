@@ -2,6 +2,10 @@
   margin-bottom: 75px;
 }
 
+.location iframe {
+  width: 100%;
+}
+
 .location__title {
   @include uppercase-centered;
   margin: 0;
@@ -20,4 +24,10 @@
 
 .location__button-find {
   @include button;
+}
+
+@media (min-width: 768px) {
+  .location__wrapper {
+    @include container-tablet;
+  }
 }

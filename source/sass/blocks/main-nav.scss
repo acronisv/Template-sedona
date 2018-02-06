@@ -18,4 +18,37 @@
     font-weight: bold;
     text-decoration: none;
   }
+
+  &:last-child {
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main-nav__list-item {
+    flex-basis: 120px;
+    background: #ffffff;
+    border: none;
+
+    &:nth-child(3) {
+      order: 4;
+    }
+
+    &:nth-child(4) {
+      order: 5;
+    }
+
+    .main-nav__link {
+      color: #000000;
+    }
+  }
 }

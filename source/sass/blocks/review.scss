@@ -32,6 +32,7 @@
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  flex-basis: 100%;
 }
 
 .review__label--capitals {
@@ -73,4 +74,123 @@
 
 .review__section--emotions {
   margin-bottom: 30px;
+}
+
+.review__line-wrapper {
+  margin-bottom: 20px;
+}
+
+.review__section--introduce .review__label {
+  margin-right: 15px;
+}
+
+.review__form-wrapper--introduce,
+.review__form-wrapper--impression {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.review__input--introduce {
+  width: 191px;
+}
+
+.review__line-wrapper:first-child .review__input--introduce {
+  width: 230px;
+}
+
+@media (min-width: 768px) {
+  .review {
+    width: 648px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .review__form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .review__section {
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0 0 45px;
+    box-sizing: border-box;
+  }
+
+  .review__section--introduce {
+    flex-basis: 50%;
+    order: 2;
+  }
+
+  .review__section--impression {
+    flex-basis: 50%;
+    order: 1;
+  }
+
+  .review__section--contact-info {
+    order: 3;
+  }
+
+  .review__section--sights {
+    order: 4;
+  }
+
+  .review__section--emotions {
+    order: 5;
+  }
+
+  .review__btn-submit {
+    order: 6;
+    margin-left: 0;
+    margin-right: auto;
+    width: 324px;
+  }
+
+  .review__form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .review__form-wrapper--introduce,
+  .review__form-wrapper--impression {
+    width: 324px;
+  }
+
+  .review__input--introduce {
+    width: 178px;
+  }
+
+  .review__line-wrapper:first-child .review__input--introduce {
+    width: 216px;
+  }
+
+  .review__wrapper {
+    border: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .review {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .review__btn-submit {
+    width: 480px;
+  }
+
+  .review__form-wrapper--introduce,
+  .review__form-wrapper--impression {
+    width: 400px;
+  }
+
+  .review__input--introduce {
+    width: 312px;
+  }
+
+  .review__line-wrapper:first-child .review__input--introduce {
+    width: 350px;
+  }
 }

@@ -9,7 +9,14 @@
 
 .intro__img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .intro {
+    @include container-desktop;
+    box-sizing: border-box;
+  }
 }
