@@ -16,8 +16,7 @@
 
 @media (min-width: 1200px) {
   .intro {
-    width: 1200px;
-    margin: 0 auto;
+    @include container-desktop;
     box-sizing: border-box;
   }
 }

@@ -88,6 +88,10 @@
 }
 
 @media (min-width: 768px) {
+  .advantages__text-wrapper {
+    @include container-tablet;
+  }
+
   .advantages__list-item--blue-bg {
     display: flex;
 

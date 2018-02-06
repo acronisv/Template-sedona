@@ -31,11 +31,11 @@
       </ul>
     </nav>
   </header>
-  <section class="intro">
-    <h1 class="visually-hidden">Отдых в Седоне</h1>
-    <img class="intro__img" src="img/text-sedona.svg" alt="Седона">
-  </section>
   <div class="wrapper">
+    <section class="intro">
+      <h1 class="visually-hidden">Отдых в Седоне</h1>
+      <img class="intro__img" src="img/text-sedona.svg" alt="Седона">
+    </section>
     <section class="review">
       <div class="review__wrapper">
         <h2 class="review__title">Оставьте свой отзыв</h2>
@@ -44,7 +44,7 @@
       <form class="review__form" action="https://echo.htmlacademy.ru" method="post">
         <fieldset class="review__section review__section--introduce">
           <legend class="review__section-title">Представьтесь:</legend>
-          <div class="review__form-wrapper">
+          <div class="review__form-wrapper review__form-wrapper--introduce">
             <div class="review__line-wrapper">
               <label class="review__label review__label--capitals" for="first-name">Имя</label>
               <input class="review__input review__input--introduce" type="text" required id="first-name" name="first-name" placeholder="Петр">
@@ -70,7 +70,7 @@
         </fieldset>
         <fieldset class="review__section review__section--impression">
           <legend class="review__section-title">Ваше общее впечатление:</legend>
-          <div class="review__form-wrapper">
+          <div class="review__form-wrapper review__form-wrapper--impression">
             <div class="review__line-wrapper">
               <input class="review__input review__input--impression" type="radio" id="positive" name="positive">
               <label class="review__label review__label--bold" for="positive">Скорее положительное</label>
@@ -87,7 +87,7 @@
         </fieldset>
         <fieldset class="review__section review__section--sights">
           <legend class="review__section-title">Посещенные достопримечательности</legend>
-          <div class="review__form-wrapper">
+          <div class="review__form-wrapper review__form-wrapper--sights">
             <div class="review__line-wrapper">
               <input class="review__input review__input--sights" type="checkbox" checked id="devil-bridge" name="devil-bridge">
               <label class="review__label review__label--bold" for="devil-bridge">Мост Дьявола</label>

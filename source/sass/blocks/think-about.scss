@@ -25,9 +25,7 @@
 
 @media (min-width: 768px) {
   .think-about {
-    width: 648px;
-    margin-left: auto;
-    margin-right: auto;
+    @include container-tablet;
   }
 }
 

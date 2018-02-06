@@ -29,3 +29,9 @@
     list-style-type: none;
   }
 }
+
+@media (min-width: 1200px) {
+  .page-footer {
+    @include container-desktop;
+  }
+}
