@@ -14,7 +14,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .intro {
     @include container-desktop;
     box-sizing: border-box;

@@ -1,0 +1,17 @@
+.social__item {
+  margin-right: 5px;
+}
+
+.social__link {
+  display: block;
+  background: $main-color;
+  width: 48px;
+  height: 48px;
+  padding-top: 14px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.social__icon {
+  fill: #ffffff;
+}

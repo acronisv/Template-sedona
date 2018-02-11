@@ -1,6 +1,6 @@
-.location {
-  margin-bottom: 75px;
-}
+// .location {
+//   margin-bottom: 75px;
+// }
 
 .location iframe {
   width: 100%;
@@ -14,20 +14,38 @@
 
 .location__text {
   @include uppercase-centered;
-  margin: 27px 0 37px 0;
+  margin: 21px 0 35px 0;
   font-size: 14px;
+  line-height: 1.7;
 }
 
 .location__wrapper {
-  padding: 30px 20px 35px;
+  padding: 28px 20px 35px;
+  margin-bottom: 15px;
 }
 
 .location__button-find {
   @include button;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
   .location__wrapper {
     @include container-tablet;
+    padding: 48px 20px 60px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+  }
+
+  .location__title {
+    font-size: 30px;
+  }
+
+  .location__text {
+    margin: 25px 0 43px 0;
+  }
+
+  .location__button-find {
+    width: 457px;
   }
 }

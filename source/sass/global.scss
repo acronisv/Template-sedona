@@ -22,7 +22,7 @@ body {
   font-weight: normal;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .page-main,
   .wrapper {
     @include container-desktop;
