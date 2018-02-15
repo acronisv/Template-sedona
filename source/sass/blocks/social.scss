@@ -10,6 +10,10 @@
   padding-top: 14px;
   box-sizing: border-box;
   text-align: center;
+
+  &:hover {
+    background: #669ec0;
+  }
 }
 
 .social__icon {

@@ -6,6 +6,8 @@
 .about__text {
   @include uppercase-centered;
   font-size: 14px;
+  margin-top: 30px;
+  line-height: 1.7;
 }
 
 .about__pics {
@@ -15,5 +17,27 @@
 }
 
 .about__wrapper {
-  padding: 40px 20px 30px;
+  padding: 25px 20px 14px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .about__title {
+    font-size: 30px;
+  }
+
+  .about__wrapper {
+    padding: 42px 165px 51px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about__wrapper {
+    padding: 80px 370px 58px;
+    border: none;
+  }
+
+  .about__text {
+    margin-top: 25px;
+  }
 }

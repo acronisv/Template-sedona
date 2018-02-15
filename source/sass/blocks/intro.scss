@@ -4,7 +4,7 @@
   background-position: 50% 50%;
   background-size: cover;
   display: block;
-  padding: 53px 45px 68px;
+  padding: 50px 45px 68px;
 }
 
 .intro__img {
@@ -14,9 +14,16 @@
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .intro {
+    padding: 94px 45px 116px;
+  }
+}
+
 @media (min-width: 1280px) {
   .intro {
     @include container-desktop;
     box-sizing: border-box;
+    padding: 101px 45px 120px;
   }
 }

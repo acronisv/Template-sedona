@@ -1,5 +1,5 @@
 .think-about {
-  margin-bottom: 80px;
+  margin-bottom: 75px;
 }
 
 .think-about__title {
@@ -20,12 +20,25 @@
 }
 
 .think-about__wrapper {
-  padding: 33px 20px 40px;
+  padding: 33px 20px 47px;
 }
 
 @media (min-width: 768px) {
   .think-about {
     @include container-tablet;
+  }
+
+  .think-about__title {
+    font-size: 30px;
+    margin-bottom: 26px;
+  }
+
+  .think-about__text {
+    line-height: 1.7;
+  }
+
+  .think-about__wrapper {
+    padding: 58px 110px 75px;
   }
 }
 
@@ -33,5 +46,10 @@
 @media (min-width: 1280px) {
   .think-about {
     width: 800px;
+    margin-bottom: 90px;
+  }
+
+  .think-about__wrapper {
+    padding: 64px 190px 71px;
   }
 }
