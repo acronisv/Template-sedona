@@ -3,7 +3,7 @@
   background-position-x: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 90px 20px;
+  padding: 87px 20px;
 }
 
 .greeting__text {
@@ -15,4 +15,10 @@
 
 .visually-hidden {
   @include v-hidden;
+}
+
+@media (min-width: 768px) {
+  .greeting {
+    padding: 77px 20px 90px;
+  }
 }

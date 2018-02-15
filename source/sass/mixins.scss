@@ -7,7 +7,7 @@
   @include uppercase-centered;
   background: $main-color;
   display: block;
-  padding: 20px 0;
+  padding: 15px 0;
   font-size: 21px;
   color: #ffffff;
   font-weight: bold;
@@ -16,24 +16,35 @@
 
 @mixin v-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 @mixin container-mobile {
-  width: 320px;
+  width: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @mixin container-tablet {
   width: 648px;
+  padding-left: 60px;
+  padding-right: 60px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @mixin container-desktop {
   width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
 }
