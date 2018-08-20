@@ -40,6 +40,10 @@
     flex-wrap: wrap;
   }
 
+  .media-posts__item--first .media-posts__img{
+    width: 648px;
+  }
+
   .media-posts__img {
     width: 324px;
   }
@@ -55,6 +59,10 @@
     &:first-child {
       flex-basis: 100%;
     }
+  }
+
+  .media-posts__item--last {
+    flex-grow: 0;
   }
 
   .media-posts__description {
@@ -100,6 +108,9 @@
     fill: #ffffff;
   }
 
+  .media-posts__item--first .media-posts__img{
+    width: 1200px;
+  }
   .media-posts__img {
     width: 400px;
   }

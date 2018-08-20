@@ -121,7 +121,7 @@
     .advantages__wrapper {
       box-sizing: border-box;
       width: 256px;
-      flex-shrink: 0;
+      flex-grow: 1;
       padding: 43px 40px;
     }
 
@@ -152,6 +152,10 @@
 
   .advantages__number {
     padding-bottom: 18px;
+  }
+
+  .advantages__image {
+    max-height: 256px;
   }
 
   .advantages__list-item--gray-bg .advantages__item-title {

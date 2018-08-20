@@ -5,6 +5,9 @@
   background-size: cover;
   display: block;
   padding: 50px 45px 68px;
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-back-mobile@2x.jpg");
+  }
 }
 
 .intro__img {
@@ -17,13 +20,21 @@
 @media (min-width: 768px) {
   .intro {
     padding: 94px 45px 116px;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-back-tablet@2x.jpg");
+    }
   }
 }
 
 @media (min-width: 1280px) {
   .intro {
+    background-image: url("../img/bg-back-desktop@1x.jpg");
     @include container-desktop;
     box-sizing: border-box;
     padding: 101px 45px 120px;
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-back-desktop@2x.jpg");
+    }
   }
 }

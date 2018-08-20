@@ -62,7 +62,11 @@
         </li>
         <li class="main-nav__list-item">
           <a class="page-header__logo" href="#">
-            <img src="img/logo-sedona-mobile.svg" alt="Logo">
+            <picture>
+              <source media="(min-width: 1280px)" srcset="img/logo-sedona-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+              <img src="img/logo-sedona-mobile.svg" alt="Logo">
+            </picture>
           </a>
         </li>
       </ul>
@@ -79,9 +83,13 @@
         <p class="about__text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
       </div>
       <ul class="about__pics media-posts">
-        <li class="media-posts__item">
+        <li class="media-posts__item media-posts__item--first">
           <div class="media-posts__wrapper">
-            <img class="media-posts__img" src="img/photo-sunset-mobile@1x.jpg" alt="Просторы">
+            <picture>
+              <source media="(min-width:1280px)" srcset="img/photo-sunset-desktop@1x.jpg 1x, img/photo-sunset-desktop@2x.jpg 2x">
+              <source media="(min-width:768px)" srcset="img/photo-sunset-tablet@1x.jpg 1x, img/photo-sunset-tablet@2x.jpg 2x">
+              <img class="media-posts__img" src="img/photo-sunset-mobile@1x.jpg" srcset="img/photo-sunset-mobile@2x.jpg 2x" alt="Просторы">
+            </picture>
             <div class="media-posts__text-wrapper">
               <div class="media-posts__description">
                 <h3 class="media-posts__title">Неродные просторы</h3>
@@ -98,7 +106,11 @@
         </li>
         <li class="media-posts__item">
           <div class="media-posts__wrapper">
-            <img class="media-posts__img" src="img/photo-cactus-mobile@1x.jpg" alt="Растительность">
+          <picture>
+            <source media="(min-width: 1280px)" srcset="img/photo-cactus-desktop@1x.jpg 1x, img/photo-cactus-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/photo-cactus-tablet@1x.jpg 1x, img/photo-cactus-tablet@2x.jpg 2x">
+            <img class="media-posts__img" src="img/photo-cactus-mobile@1x.jpg" srcset="img/photo-cactus-mobile@2x.jpg 2x" alt="Растительность">
+          </picture>
             <div class="media-posts__text-wrapper">
               <div class="media-posts__description">
                 <h3 class="media-posts__title">Местная растительность</h3>
@@ -115,7 +127,11 @@
         </li>
         <li class="media-posts__item">
           <div class="media-posts__wrapper">
-            <img class="media-posts__img" src="img/photo-roads-mobile@1x.jpg" alt="Дорога">
+            <picture>
+              <source media="(min-width: 1280px)" srcset="img/photo-roads-desktop@1x.jpg 1x, img/photo-roads-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/photo-roads-tablet@1x.jpg 1x, img/photo-roads-tablet@2x.jpg 2x">
+              <img class="media-posts__img" src="img/photo-roads-mobile@1x.jpg" srcset="img/photo-roads-mobile@2x.jpg 2x" alt="Дорога">
+            </picture>
             <div class="media-posts__text-wrapper">
               <div class="media-posts__description">
                 <h3 class="media-posts__title">Дорога на север</h3>
@@ -130,9 +146,13 @@
             </div>
           </div>
         </li>
-        <li class="media-posts__item">
+        <li class="media-posts__item media-posts__item--last">
           <div class="media-posts__wrapper">
-            <img class="media-posts__img" src="img/photo-bridge-mobile@1x.jpg" alt="Мост">
+            <picture>
+              <source media="(min-width: 1280px)" srcset="img/photo-bridge-desktop@1x.jpg 1x, img/photo-bridge-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/photo-bridge-tablet@1x.jpg 1x, img/photo-bridge-tablet@2x.jpg 2x">
+              <img class="media-posts__img" src="img/photo-bridge-mobile@1x.jpg" srcset="img/photo-bridge-mobile@2x.jpg 2x" alt="Мост">
+            </picture>
             <div class="media-posts__text-wrapper">
               <div class="media-posts__description">
                 <h3 class="media-posts__title">Мост дьявола</h3>
@@ -155,7 +175,11 @@
         <p class="think-about__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
       </div>
       <div class="think-about__video player">
-        <img src="img/video-mobile@1x.jpg" alt="Video">
+        <picture>
+          <source media="(min-width: 1280px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+          <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+          <img src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" alt="Video">
+        </picture>
         <div class="player__controls">
           <button class="player__button player__button--replay">
             <svg class="player__icon" width="16px" height="20px">
