@@ -4,19 +4,25 @@
   "private": true,
   "description": "Личный проект «Седона» от HTML Academy",
   "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "7.2.x",
-    "browser-sync": "2.23.x",
-    "gulp": "3.9.x",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "1.2.x",
     "gulp-postcss": "7.0.x",
     "gulp-sass": "3.1.x",
-    "@htmlacademy/editorconfig-cli": "1.x",
-    "stylelint": "8.4.x",
+    "stylelint": "^13.9.0",
     "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
-    "stylelint": "stylelint \"source/sass/**/*.scss\" —syntax scss",
+    "stylelint": "stylelint \"src/sass/**/*.scss\" --syntax scss",
+    "stylelint:fix": "stylelint \"src/sass/**/*.scss\" --fix",
     "test": "npm run editorconfig && npm run stylelint",
     "build": "gulp style",
     "start": "gulp serve"
@@ -29,10 +35,10 @@
   "editorconfig-cli": [
     "*.json",
     "*.js",
-    "source/*.html",
-    "source/js/**/*.js",
-    "source/img/**/*.svg",
-    "source/sass/**/*.{sass,scss}"
+    "src/*.html",
+    "src/js/**/*.js",
+    "src/img/**/*.svg",
+    "src/sass/**/*.{sass,scss}"
   ],
   "engines": {
     "node": "8.9"
