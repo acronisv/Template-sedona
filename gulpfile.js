@@ -7,10 +7,6 @@ const del = require('del');
 const imagemin = require('gulp-imagemin');
 const browserSync = require('browser-sync').create();
 
-const norm = [
-  './node_modules/normalize.css/normalize.css',
-];
-
 const sassFiles = [
   'src/sass/*.scss'
 ];
@@ -20,8 +16,7 @@ const jsFiles = [
 ];
 
 function styles(){
-  return gulp.src(norm)
-    .pipe(gulp.src(sassFiles))
+  return gulp.src(sassFiles)
     .pipe(sass())
     .pipe(concat('template.css'))
     .pipe(autoprefixer({
