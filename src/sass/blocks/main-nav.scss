@@ -95,6 +95,16 @@
       background-color: #669ec0;
     }
   }
+
+  .main-nav--closed {
+    .main-nav__list-item {
+      display: none;
+
+      &:last-child {
+        display: block;
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) {
