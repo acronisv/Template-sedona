@@ -1,4 +1,4 @@
-## Личный проект «Седона» [status]
+## Личный проект «Седона» [![status]]
 
 ### [Github pages](https://acronisv.github.io/Template-sedona/)
 
