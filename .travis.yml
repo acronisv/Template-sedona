@@ -1,14 +1,7 @@
 language: node_js
-node_js: 
-  - '12'
-script:
-  - npm run test
-  - npm run build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: build
-  target_branch: gh-pages
-  on: 
-    branch: master
+
+node_js:
+  - "12.18.2"
+
+notifications:
+  email: false

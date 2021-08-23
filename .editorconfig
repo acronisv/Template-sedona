@@ -5,7 +5,7 @@
 # действий.
 #
 # Если вы ведёте разработку в другом редакторе, зайдите
-# на http://editorconfig.org и в разделе «Download a Plugin»
+# на https://editorconfig.org и в разделе «Download a Plugin»
 # скачайте дополнение для вашего редактора.
 
 root = true
